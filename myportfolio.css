@@ -157,25 +157,22 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-.row1 {
+.flex {
     display: flex;
-    align-content: space-around;
-    margin-left: 160px;
-    margin-right: 160px;
+    flex-wrap:;  
+    flex-direction: row;
+    align-content:center;
+    justify-content: space-around;
+    margin-left: 170px;
+    margin-right: 170px;   
 }
 
-.row2 {
+.flex2 {
     display: flex;
-    align-content: space-around;
-    margin-left: 160px;
-    margin-right: 160px;
-}
-
-
-
-img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-left: 170px;
+    margin-right: 170px;
 }
